@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.gridwrapper {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 100%;
+    grid-template-areas: 
+    na
+    ar
+    ;
+}
+
+nav {
+    grid-area: na;
+    background: yellow;
+}
+
+article {
+    grid-area: ar;
+    background: red;
+}
