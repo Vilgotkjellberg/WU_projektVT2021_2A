@@ -2,7 +2,11 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-
+    font-family: 'Noto Sans KR', sans-serif;
+}
+#logga {
+    width: 75px;
+    height: 75px;
 }
 body  {
     font-family: 'Arial' , sans-serif;
@@ -28,7 +32,6 @@ nav .mainMenu li a {
 #menu:hover {
     color: rgb(105, 105, 105);
 }
-
 
 nav .openMenu {
     font-size: 2rem;
