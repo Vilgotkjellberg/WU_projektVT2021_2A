@@ -53,6 +53,7 @@ nav .logo {
     font-size: 25px;
     cursor: pointer;
 }
+
 @media(max-width: 800px){
     nav .mainMenu {
         height: 100vh;
@@ -68,6 +69,7 @@ nav .logo {
         transition: top 1s ease;
         display: none;
     }
+
     nav .mainMenu .closeMenu {
         display: block;
         position: absolute;
@@ -75,24 +77,37 @@ nav .logo {
         right: 20px;
 
     }
+
     nav .openMenu {
         display: block;
     }
+
     nav .mainMenu li a:hover {
         background: none;
         font-size: 1.6rem;
     }
+
     .icons i {
         display: inline-block;
         padding: 12px;
     }
+
+    .kopa {
+        width: 60vw;
+        padding: 0px;
+    }
+    p {
+        display: inline;
+    }
 }
+
+@media(min-width: 800px){
 
 #slider {
     overflow: hidden;
 }
 
-#slider figure{
+#slider figure {
     position: relative;
     width: 500%;
     margin: 0;
@@ -106,25 +121,31 @@ nav .logo {
 }
 
 @keyframes slider {
-    0% {
-        left: 0;
+    30% {
+        left: -0%;
     }
-    20% {
-        left: 0;
-    }
-    25% {
+    60% {
         left: -100%;
     }
-    45% {
+    90% {
         left: -200%;
-    }
-    70% {
-        left: -200%;
-    }
-    75% {
-        left: -300%;
-    }
-    95% {
-        left: -300%;
     }
 }
+
+.kopa {
+    height: 90vh;
+    width: auto;
+}
+}
+
+
+#googlemap {
+    width: 100%;
+    height: 100vh;
+}
+
+
+
+
+
+
